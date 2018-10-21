@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<codeFramework xmlns="http://www.3ds.ic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.3ds.ic ICModel.xsd">
+  <prerequisite name="System" access="Public" expose="ExposePrereq" />
+  <prerequisite name="SystemTS" access="Public" expose="ExposePrereq" />
+  <prerequisite name="CATPLMComponentInterfaces" access="Public" expose="ExposePrereq" />
+  <prerequisite name="ObjectModelerSystem" access="Public" expose="ExposePrereq" />
+  <prerequisite name="CATMecModLiveUseItf" access="Public" expose="ExposePrereq" />
+  <prerequisite name="CATMecModUseItf" access="Public" expose="ExposePrereq" />
+  <prerequisite name="KnowledgeInterfaces" access="Public" expose="ExposePrereq" />
+  <prerequisite name="CAT3DPhysicalRepInterfaces" access="Public" expose="ExposePrereq" />
+  <prerequisite name="Dialog" access="Public" expose="ExposePrereq" />
+  <prerequisite name="AfrFoundation" access="Public" expose="ExposePrereq" />
+  <prerequisite name="Mathematics" access="Public" expose="ExposePrereq" />
+  <prerequisite name="PLMModelerBaseInterfaces" access="Public" expose="ExposePrereq" />
+  <prerequisite name="GMModelInterfaces" access="Public" expose="ExposePrereq" />
+  <prerequisite name="GeometricObjects" access="Public" expose="ExposePrereq" />
+  <prerequisite name="MeasureGeometryInterfaces" access="Public" expose="ExposePrereq" />
+  <prerequisite name="ProductStructureInterfaces" access="Public" expose="ExposePrereq" />
+  <prerequisite name="ProductStructureUseItf" access="Public" expose="ExposePrereq" />
+  <prerequisite name="CATEngConnectionUseItf" access="Public" expose="ExposePrereq" />
+  <prerequisite name="CATAssemblyConstraintUseItf" access="Public" expose="ExposePrereq" />
+  <prerequisite name="CATPLMUpdateUseItf" access="Public" expose="ExposePrereq" />
+  <prerequisite name="ObjectModelerBase" access="Public" expose="ExposePrereq" />
+  <prerequisite name="AfrNavigator" access="Public" expose="ExposePrereq" />
+  <prerequisite name="ObjectModelerNavigator" access="Public" expose="ExposePrereq" />
+  <prerequisite name="CATPLMIdentificationAccess" access="Public" expose="ExposePrereq" />
+  <prerequisite name="PLMBatchDataAccessInterfaces" access="Public" expose="ExposePrereq" />
+  <prerequisite name="CATPLMIntegrationAccess" access="Public" expose="ExposePrereq" />
+  <prerequisite name="XMLParserItf" access="Public" expose="ExposePrereq" />
+  <prerequisite name="VisualizationInterfaces" access="Public" expose="ExposePrereq" />
+  <prerequisite name="GMOperatorsInterfaces" access="Public" expose="ExposePrereq" />
+  <prerequisite name="CATMathStream" access="Public" expose="ExposePrereq" />
+  <prerequisite name="VPMEditorInterfaces" access="Public" expose="ExposePrereq" />
+  <prerequisite name="VisualizationController" access="Public" expose="ExposePrereq" />
+  <prerequisite name="VisualizationFoundation" access="Public" expose="ExposePrereq" />
+</codeFramework>
+

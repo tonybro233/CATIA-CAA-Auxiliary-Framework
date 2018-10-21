@@ -1,0 +1,18 @@
+JNCTempTextRepComp JNCITempTextRep libVisTempRepMod
+ 
+JNCTempTextRepComp CATICreateInstance libVisTempRepMod
+ 
+JNCTempWireBoxComp JNCITempWireBoxRep libVisTempRepMod
+ 
+JNCTempWireBoxComp CATI3DGeoVisu libVisTempRepMod
+ 
+JNCTempWireBoxComp CATICreateInstance libVisTempRepMod
+ 
+JNCTempFixArrowRepComp JNCITempFixArrowRep libVisTempRepMod
+ 
+JNCTempFixArrowRepComp CATICreateInstance libVisTempRepMod
+ 
+JNCTempPointRepComp JNCITempPointRep libVisTempRepMod
+ 
+JNCTempPointRepComp CATICreateInstance libVisTempRepMod
+ 

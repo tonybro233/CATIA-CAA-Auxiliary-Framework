@@ -34,12 +34,22 @@
 
 # ===== CAA =====
 **/ImportedInterfaces/
+**/PublicGenerated/
+**/ProtectedGenerated/
 **/LocalGenerated/
 **/Objects/
 **/various/
+**/win_b64/
 
 *.mk
 *.mkb
 *.mkDG
 *.pdb
 *.manifest
+
+# ===== VS ======
+*.sdf
+*.opensdf
+*.sln
+*.suo
+*.vcxproj*
