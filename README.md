@@ -53,7 +53,7 @@ This framework aims to provide ability to control external application. Now it c
 
 ### VisTempRepFW
 
-If you want to develop some tools which will __use and select temporary component__, you have to create some components implement specified interface(CAA use Component Object Model). This framework has done the fussy works for you, and you just have to import it.
+If you want to develop some tools which have to __use and select temporary component__, you have to create some components implement specified interface(CAA use Component Object Model). This framework has done the fussy works for you, and you just have to import it.
 
 ```cpp
 // ======== include
