@@ -70,7 +70,7 @@ YourCommand::YourCommand():
 {
     ::CATInstantiateComponent("JNCTempFixArrowRepComp",IID_JNCITempFixArrowRep,(void**)&_zArrow);
     ::CATInstantiateComponent("JNCTempFixArrowRepComp",IID_JNCITempFixArrowRep,(void**)&_xArrow);
-	::CATInstantiateComponent("JNCTempFixArrowRepComp",IID_JNCITempFixArrowRep,(void**)&_yArrow);	
+    ::CATInstantiateComponent("JNCTempFixArrowRepComp",IID_JNCITempFixArrowRep,(void**)&_yArrow);	
 }
 ```
 
