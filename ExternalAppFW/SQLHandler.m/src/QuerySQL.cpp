@@ -38,7 +38,7 @@ HRESULT ExecuteSQLCommand(const CATUnicodeString &strSQLCmdText)
 	if (SUCCEEDED(rc) && adStateOpen != pConnection->GetState())
 	{
 		pConnection->ConnectionTimeout = 10;
-		rc = pConnection->Open(SQLConnectionString,"","",adModeUnknown); // Ê¹ÓÃadModeReadWrite³ö´í£¿
+		rc = pConnection->Open(SQLConnectionString,"","",adModeUnknown); // ä½¿ç”¨adModeReadWriteå‡ºé”™ï¼Ÿ
 	}
 
 	//=============================Excute without recordset  

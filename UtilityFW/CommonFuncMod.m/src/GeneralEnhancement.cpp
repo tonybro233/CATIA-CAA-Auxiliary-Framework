@@ -85,7 +85,7 @@ void MyMsgBox( CATUnicodeString iMessage, MsgboxType MsgType)
 	{
 		CATDlgNotify *pDlgNy = new CATDlgNotify((CATApplicationFrame::GetApplicationFrame())->GetMainWindow(),"Msg",CATDlgNfyInformation|CATDlgNfyOK);
 
-		int iRet = pDlgNy->DisplayBlocked(iMessage, "Í¨Öª"); // notify
+		int iRet = pDlgNy->DisplayBlocked(iMessage, "æé†’"); // notify
 		if(1 == iRet)
 		{
 			pDlgNy->RequestDelayedDestruction();
@@ -97,7 +97,7 @@ void MyMsgBox( CATUnicodeString iMessage, MsgboxType MsgType)
 	{
 		CATDlgNotify *pDlgNy = new CATDlgNotify((CATApplicationFrame::GetApplicationFrame())->GetMainWindow(),"Msg",CATDlgNfyWarning|CATDlgNfyOK);
 
-		int iRet = pDlgNy->DisplayBlocked(iMessage, "¾¯¸æ"); // warn
+		int iRet = pDlgNy->DisplayBlocked(iMessage, "è­¦å‘Š"); // warn
 		if(1 == iRet)
 		{
 			pDlgNy->RequestDelayedDestruction();
@@ -109,7 +109,7 @@ void MyMsgBox( CATUnicodeString iMessage, MsgboxType MsgType)
 	{
 		CATDlgNotify *pDlgNy = new CATDlgNotify((CATApplicationFrame::GetApplicationFrame())->GetMainWindow(),"Msg",CATDlgNfyError|CATDlgNfyOK);
 
-		int iRet = pDlgNy->DisplayBlocked(iMessage, "´íÎó"); //error
+		int iRet = pDlgNy->DisplayBlocked(iMessage, "é”™è¯¯"); //error
 		if(1 == iRet)
 		{
 			pDlgNy->RequestDelayedDestruction();

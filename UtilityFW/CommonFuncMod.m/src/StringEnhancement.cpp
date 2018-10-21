@@ -59,7 +59,7 @@ HRESULT SplitString( CATUnicodeString iString, CATUnicodeString iSeparator, CATL
 	CATUnicodeString strTemp, strTemp2;
 	oStrList.RemoveAll();
 	int iLocation = iString.SearchSubString(iSeparator, 0, CATUnicodeString::CATSearchModeForward);
-	if (iLocation == -1)//Î´ËÑµ½·Ö¸ô·û
+	if (iLocation == -1) //æœªæœåˆ°åˆ†éš”ç¬¦
 	{
 		oStrList.Append(iString);
 		return E_FAIL;

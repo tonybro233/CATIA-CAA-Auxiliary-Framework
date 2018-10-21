@@ -35,7 +35,7 @@ This repository provide three frameworks for common usage, if you want to use it
 
 ### UtilityFW
 
-This framework has two modules. CommonFuncMod provides static common methods, and these methods are divided into five files according to their functions. CommonToolMod is designed to provide instrument classes.
+This framework has two modules. CommonFuncMod provides static common methods, and these methods are divided into five files according to their's function. CommonToolMod is designed to provide instrument classes.
 
 - CommonFuncMod
   - GeneralEnhancement
