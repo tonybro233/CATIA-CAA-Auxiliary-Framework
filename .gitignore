@@ -1,3 +1,4 @@
+# ===== C++ =====
 # Prerequisites
 *.d
 
@@ -30,3 +31,15 @@
 *.exe
 *.out
 *.app
+
+# ===== CAA =====
+**/ImportedInterfaces/
+**/LocalGenerated/
+**/Objects/
+**/various/
+
+*.mk
+*.mkb
+*.mkDG
+*.pdb
+*.manifest
