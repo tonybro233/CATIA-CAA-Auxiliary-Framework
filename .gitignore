@@ -41,7 +41,6 @@
 **/various/
 **/win_b64/
 
-*.mk
 *.mkb
 *.mkDG
 *.pdb
