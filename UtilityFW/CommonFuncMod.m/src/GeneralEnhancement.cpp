@@ -122,8 +122,6 @@ void MyMsgBox( CATUnicodeString iMessage, MsgboxType MsgType)
 
 HRESULT GetPathString(CATPathElement * ipPath, CATUnicodeString & oPathString)
 {
-	oPathString = oPathString.SubString(0,oPathString.GetLengthInChar()-1);*/
-
 	oPathString = "" ;
 	if ( NULL != ipPath )
 	{
