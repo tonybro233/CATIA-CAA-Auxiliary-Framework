@@ -36,22 +36,15 @@ void ConvertIntToCapitalLetter( unsigned int iDecimal, CATUnicodeString &ostrCap
 	if (iDecimal <= 0)
 		return;
 
-	// 1 = 'A'
-	iDecimal --;
-
-	while (iDecimal/26 != 0)
+	while (iDecimal != 0)
 	{
-		RemainInt = iDecimal%26;
-		iDecimal = iDecimal/26;		
-
+		iDecimal--;
+		RemainInt = iDecimal % 26;
 		Letter = 65 + RemainInt;
 		StringLetter = CATUnicodeString(Letter);
 		ostrCapitalLetter = StringLetter + ostrCapitalLetter;
+		iDecimal = iDecimal / 26;
 	}
-
-	Letter = 65 + iDecimal ;
-	StringLetter = CATUnicodeString(Letter);
-	ostrCapitalLetter = StringLetter + ostrCapitalLetter;
 }
 
 HRESULT SplitString( CATUnicodeString iString, CATUnicodeString iSeparator, CATListOfCATUnicodeString &oStrList )
